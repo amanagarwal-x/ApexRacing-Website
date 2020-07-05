@@ -27,11 +27,30 @@ a{
     color: inherit;
     text-decoration: none;
 }
+
+input{
+    font-weight: 200;
+    font-size: 100%;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 4px;
+
+}
+
+form{
+    font-family: 'Oswald', sans-serif;
+}
+
 .menu {
+    position: relative;
     border-right: 1px solid lightgrey;
     background: white;
     object-fit: contain;
-    height: 100%;
+    min-height: 100vh;
     width: 20.5%;
     margin: 0;
 }
@@ -48,7 +67,6 @@ a{
     text-align: left;
     padding: 10px 0px 10px 50px;
     border-bottom: 1px solid lightgrey;
-    font-size: ;
 }
 
 .menu table td:hover {
@@ -84,9 +102,10 @@ a{
 }
 
 .text-column {
+    position: absolute;
+    top: 0;
     padding: 0px 30px 30px 30px;
     margin: 0;
-    position: absolute;
     background-color: white;
     opacity: 0.85;
     min-height: 100%;
@@ -106,7 +125,7 @@ a{
 
 .gif-text {
     position: relative;
-    top: 30%;
+    top: 20vh;
 
 }
 
@@ -116,4 +135,16 @@ a{
     margin: 30px;
     font-weight: 700;
     font-size: 350%;
+}
+
+button{
+    width : 22%;
+    height: 30px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 17px;
 }
